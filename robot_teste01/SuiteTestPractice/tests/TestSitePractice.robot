@@ -8,16 +8,14 @@ Test Teardown     Fechar navegador
 *** Test Case ***
 Caso de Teste 01: Pesquisar Produtos Existentes
     Acessar página home do site
-    Conferir se a página home foi exibida
-    Digitar o nome de produto "Blouse" no campo de pesquisa
-    Clicar no botão de pesquisa
-    Conferir se o produto "Blouse" foi listado no site
+#     Digitar o nome de produto "Blouse" no campo de pesquisa
+#     Clicar no botão de pesquisa
+#     Conferir se o produto "Blouse" foi listado no site
+#
+# Caso de Testes 02: Pesquisar Produtos não Existentes
+#     Acessar página home do site
+#     Digitar o nome de produto "produtoNãoExistente" no campo de pesquisa
+#     Clicar no botão de pesquisa
+#     Conferir mensagem de erro "No results were found for your search "itemNãoExistente"
 
-Caso de Testes 02: Pesquisar Produtos não Existentes
-    Acessar página home do site
-    Conferir se a página home foi exibida
-    Digitar o nome de produto "produtoNãoExistente" no campo de pesquisa
-    Clicar no botão de pesquisa
-    Conferir mensagem de erro "No results were found for your search "itemNãoExistente"
-
-*** Keywords ***
+# *** Keywords ***
