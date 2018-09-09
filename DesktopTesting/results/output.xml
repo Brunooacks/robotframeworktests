@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20180909 19:44:41.227" generator="Robot 3.0.4 (Python 2.7.10 on darwin)">
+<suite source="/Users/bruno_oliveira/Documents/RobotFramework/DesktopTesting/TesteSikuli.robot" id="s1" name="TesteSikuli">
+<kw type="setup" name="Start Sikuli Process">
+<msg timestamp="20180909 19:44:48.204" level="FAIL">No keyword with name 'Start Sikuli Process' found.</msg>
+<status status="FAIL" endtime="20180909 19:44:48.204" starttime="20180909 19:44:48.204"></status>
+</kw>
+<test id="s1-t1" name="Acesso ao Spotfy">
+<status status="FAIL" endtime="20180909 19:44:48.205" critical="yes" starttime="20180909 19:44:48.205">Parent suite setup failed:
+No keyword with name 'Start Sikuli Process' found.</status>
+</test>
+<doc>Sikuli Library Demo</doc>
+<status status="FAIL" endtime="20180909 19:44:48.206" starttime="20180909 19:44:41.229">Suite setup failed:
+No keyword with name 'Start Sikuli Process' found.</status>
+</suite>
+<statistics>
+<total>
+<stat fail="1" pass="0">Critical Tests</stat>
+<stat fail="1" pass="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="1" id="s1" name="TesteSikuli" pass="0">TesteSikuli</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20180909 19:44:45.184" level="WARN">Test get_keyword_names failed! Connecting remote server at http://127.0.0.1:50639/ failed: [Errno 61] Connection refused</msg>
+<msg timestamp="20180909 19:44:47.192" level="WARN">Test get_keyword_names failed! Connecting remote server at http://127.0.0.1:50639/ failed: [Errno 61] Connection refused</msg>
+<msg timestamp="20180909 19:44:48.198" level="ERROR">Error in file '/Users/bruno_oliveira/Documents/RobotFramework/DesktopTesting/TesteSikuli.robot': Initializing test library 'SikuliLibrary' with no arguments failed: Failed to get_keyword_names!
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/SikuliLibrary/sikuli.py", line 54, in __init__
+    self.start_sikuli_process(port)
+  File "/Library/Python/2.7/site-packages/SikuliLibrary/sikuli.py", line 93, in start_sikuli_process
+    self.remote = self._connect_remote_library()
+  File "/Library/Python/2.7/site-packages/SikuliLibrary/sikuli.py", line 204, in _connect_remote_library
+    self._test_get_keyword_names(remote)
+  File "/Library/Python/2.7/site-packages/SikuliLibrary/sikuli.py", line 221, in _test_get_keyword_names
+    raise RuntimeError('Failed to get_keyword_names!')</msg>
+</errors>
+</robot>
